@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rociokelez/proyectoCoder.git"
+    "url": "git+https://github.com/rociokelez/preEntregaFinalCoder.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rociokelez/proyectoCoder/issues"
+    "url": "https://github.com/rociokelez/preEntregaFinalCoder.git/issues"
   },
-  "homepage": "https://github.com/rociokelez/proyectoCoder#readme",
+  "homepage": "https://github.com/rociokelez/preEntregaFinalCoder.git#readme",
   "dependencies": {
     "sass": "^1.54.0"
   }
