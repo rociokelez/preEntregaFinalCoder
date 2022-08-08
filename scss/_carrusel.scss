@@ -1,0 +1,26 @@
+@import "../scss/vars";
+@import "../scss/fonts";
+
+
+#galeriaPrincipal{
+    display: flex;
+	width: 80%;
+    padding: 10px;
+	margin: 5px;
+	border: none;
+	align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#carruselAlan{
+    @extend .carrusel;
+}
+
+#carruselCami{
+    @extend .carrusel;
+}
+
+#carruselDani{
+    @extend .carrusel;
+}

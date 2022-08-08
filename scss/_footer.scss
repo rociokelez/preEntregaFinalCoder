@@ -1,0 +1,41 @@
+@import "../scss/vars";
+@import "../scss/fonts";
+@import "../scss/maps";
+
+.footer{
+	padding: 5%;
+	margin: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+	color:map-get($map:$paleta, $key:'uno');
+	background-color:$colorPrincipal;
+}
+
+.footer__icono{
+	display: inline-block;
+	margin: 10px;
+}
+
+.footer__logo{
+	height: 20px;
+	width: 20px;
+}
+
+
+footer{
+	grid-area: footer;
+}
+
+
+
+#footerqsi{
+	grid-area: footer;
+}
+
+
+
+#footerContacto{
+	grid-area: footer;
+}
