@@ -88,6 +88,7 @@ html {
 
 h1, h2 {
   color: #125b50;
+  font-weight: 400;
   font-size: 2.5rem;
   text-align: center;
   padding: 5%;
@@ -248,6 +249,120 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+  #indexGrid {
+    display: grid;
+    grid-template-areas: "nav" "header" "main" "section" "footer";
+    grid-template-columns: auto;
+  }
+
+  #galeriaPrincipal {
+    padding: 10%;
+    margin: 0 auto;
+    border: none;
+    align-content: center;
+  }
+
+  .sectionIndex {
+    padding: 10%;
+    margin: 3px;
+    border: none;
+    align-content: center;
+  }
+
+  .navegador {
+    background-color: #125b50;
+    display: flex;
+    align-items: center;
+    text-align: end;
+  }
+  .navegador li a {
+    padding: 1em;
+    font-size: 11px;
+    color: #f8b400;
+    text-decoration: none;
+  }
+
+  h3 {
+    font-size: 13px;
+    color: #f8b400;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  #quienesSomosGrid {
+    display: grid;
+    grid-template-areas: "nav" "section" "main" "footer";
+    grid-template-columns: auto;
+  }
+
+  #mainqsi {
+    grid-area: main;
+    padding: 10%;
+    align-items: center;
+  }
+
+  #sectionqsi {
+    grid-area: section;
+    padding: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navegador {
+    background-color: #125b50;
+    display: flex;
+    align-items: center;
+    text-align: end;
+  }
+
+  nav ul li a {
+    padding: 1em;
+    font-size: 11px;
+    color: #f8b400;
+    text-decoration: none;
+  }
+
+  #contactoGrid {
+    display: grid;
+    grid-template-areas: "nav" "header" "main" "section" "footer";
+    grid-template-columns: auto;
+  }
+
+  .navegador {
+    background-color: #125b50;
+    display: flex;
+    align-items: center;
+    text-align: end;
+  }
+  .navegador li a {
+    padding: 1em;
+    font-size: 11px;
+    color: #f8b400;
+    text-decoration: none;
+  }
+
+  .dropdown-item {
+    font-size: 1rem;
+  }
+
+  .element-style {
+    height: 600px;
+  }
+
+  .footer__icono {
+    display: inline-block;
+    margin: 3px;
+  }
+
+  #mapaContacto {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
   #indexGrid {
     display: grid;
     grid-template-areas: "nav" "header" "main" "section" "footer";
